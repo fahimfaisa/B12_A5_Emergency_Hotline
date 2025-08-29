@@ -33,13 +33,13 @@
         <button
           class="border-none ml-10 btn rounded-3xl h-[52px] w-[123px] bg-[#c7e9ce]"
         >
-          <span class="font-bold text-2xl">0</span>
+          <span id="heart-number" class="font-bold text-2xl">0</span>
           <img src="assets/heart.png" class="h-[30px] w-[30px]" alt="" />
         </button>
         <button
           class="border-none ml-4 btn rounded-3xl h-[52px] w-[123px] bg-[#c7e9ce]"
         >
-          <span class="font-bold text-2xl">100</span>
+          <span id="coin-count" class="font-bold text-2xl">100</span>
           <img src="assets/coin.png" class="h-[24px] w-[24px]" alt="" />
         </button>
         <button
@@ -79,7 +79,10 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-circle bg-white border-none">
+              <button
+                id="btn-heart"
+                class="btn btn-circle bg-white border-none"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -99,8 +102,12 @@
             <!-- .... -->
             <div>
               <h2 class="font-bold text-[24px]">National Emergency Number</h2>
-              <p class="text-[18px] text-[#5C5C5C]">National Emergency</p>
-              <p class="font-bold text-[30px] mt-[24px]">999</p>
+              <p id="call-name" class="text-[18px] text-[#5C5C5C]">
+                National Emergency
+              </p>
+              <p id="call-number" class="font-bold text-[30px] mt-[24px]">
+                999
+              </p>
               <button
                 class="btn btn-sm rounded-3xl border-none bg-gray-100 mt-2"
               >
@@ -113,6 +120,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
+                id="call-btn"
                 class="btn w-[183px] rounded-[10px] bg-[#00A63E] text-white ml-1"
               >
                 <i class="fa-solid fa-phone"></i>
@@ -425,7 +433,7 @@
               <div class="bg-[#FFE3E2] h-[60px] w-[60px] rounded-2xl">
                 <img
                   class="h-[32px] w-[32px] mx-auto mt-3"
-                  src="assets/emergency.png"
+                  src="assets/brac.png"
                   alt=""
                 />
               </div>
