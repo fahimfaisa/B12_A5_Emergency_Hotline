@@ -50,7 +50,7 @@
       </div>
     </header>
 
-    <main class="max-w-[1920px] mx-auto bg-[#e7f3ec]">
+    <main  class="max-w-[1920px] mx-auto bg-[#e7f3ec]">
       <!-- main section title -->
       <div
         class="bg-linear-to-r from-[#013223] to-[#006747] h-[245px] text-center p-5"
@@ -589,21 +589,28 @@
             </div>
           </div>
         </div>
-        <!-- history section -->
+        <!-- call history section -->
+        
+        <section >
+        <div   class="p-5 mt-[45px] rounded-2xl h-[1140px] shadow-xl ml-9 w-[400px] bg-white">
         <div
-          class="ml-9 w-[400px] bg-white flex justify-between p-5 mt-[45px] rounded-2xl h-[1140px] shadow-xl"
+          class=" flex justify-between "
         >
           <div class="flex gap-3">
             <i class="fa-regular fa-clock mt-[34px]"></i>
             <h2 class="font-semibold text-[20px] mt-[27px]">Call History</h2>
           </div>
-          <button
+          <button id="clear-btn"
             class="mt-[24px] btn font-semibold text-[21px] rounded-3xl h-[52px] w-[127px] bg-[#00A63E] text-white"
           >
             Clear
           </button>
+          
         </div>
+        <div id="main-container"></div>
+        
       </div>
+      </section>
     </main>
     <!-- javascript part -->
     <script src="script.js"></script>
